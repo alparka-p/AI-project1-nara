@@ -1,0 +1,225 @@
+{
+  "consistency_rules": {
+    "version": "stage6-4",
+    "principles": {
+      "no_notice_level_mutex": "한 공고에 여러 품목/조건이 있을 수 있으므로 항목 간 무조건적인 notice-level mutex를 적용하지 않는다.",
+      "apply_relations_after_fact_extraction": "상품구분, 금액구간, 계약법, 계약방법 등 Stage 7 structured facts가 확정된 뒤에만 항목 간 정합성 규칙을 적용한다.",
+      "dev_zero_overlap_is_not_proof": "DEV 200건에서 동시양성이 0이어도 논리적으로 불가능하다고 자동 간주하지 않는다."
+    },
+    "qualification_region": {
+      "v2_v4": "DEV에서 중첩 가능성이 있으므로 고시금액만으로 상호배제시키지 않는다.",
+      "v5_v6_v7": "가격구간과 지역제한 유형을 각각 구조화한 뒤 판단한다.",
+      "v8": "실적제한 + 지역제한의 동시 존재 항목이므로 v2~v7과 동시양성이 가능하다."
+    },
+    "product_classification": {
+      "competitive_product_items": [
+        "v10",
+        "v11",
+        "v13"
+      ],
+      "general_product_items": [
+        "v12",
+        "v14",
+        "v15",
+        "v16",
+        "v17",
+        "v18"
+      ],
+      "rule": "세부품명번호 단위로 경쟁제품 여부를 먼저 판정한다. 공고 전체를 하나의 상품종류로 단정하지 않는다."
+    },
+    "general_product_price_bands": {
+      "high": {
+        "condition": "price >= applicable_notice_threshold",
+        "items": [
+          "v14"
+        ]
+      },
+      "middle": {
+        "condition": "100000000 <= price < applicable_notice_threshold",
+        "items": [
+          "v15",
+          "v16"
+        ]
+      },
+      "low": {
+        "condition": "price < 100000000",
+        "items": [
+          "v17",
+          "v18"
+        ]
+      },
+      "rule": "동일 판정대상 물품/금액에 대해서는 하나의 금액구간만 적용한다. 단, 공고에 여러 품목이 존재하면 공고 수준에서 여러 구간이 동시에 나타날 수 있으므로 강제 mutex 금지."
+    },
+    "absence_detection": {
+      "items": [
+        "v10",
+        "v11",
+        "v16",
+        "v18",
+        "v20"
+      ],
+      "evidence": "always empty",
+      "incomplete_docs_rule": "dropped_doc_counts 또는 완전관측=False이면 단순 문구부재만으로 violation=1을 확정하지 않는다."
+    },
+    "software": {
+      "item": "v20",
+      "required_sequence": [
+        "SW/정보화사업 적용 여부",
+        "사업금액",
+        "사업자 규모 제한 기준",
+        "실제 참가자격 문구 존재 여부",
+        "예외 확인"
+      ]
+    },
+    "site_briefing": {
+      "v22": "협상계약에서 설명회 참석 자체를 입찰참가자격으로 제한하는지 판단",
+      "v23": "지방계약 + 협상계약에서 공고/설명회 관련 최소기간 위반 판단",
+      "coexistence": "v22와 v23은 서로 다른 위반이므로 동시양성 가능"
+    },
+    "v24": {
+      "type": "docs_meta_comparison",
+      "legal_rag": false,
+      "compare_fields": [
+        "예산/추정가격",
+        "계약방법",
+        "지역제한",
+        "업종/면허제한"
+      ]
+    }
+  },
+  "dev_cooccurrence": [
+    {
+      "item_a": "v2",
+      "item_b": "v4",
+      "positive_a": 7,
+      "positive_b": 6,
+      "both_positive": 3
+    },
+    {
+      "item_a": "v5",
+      "item_b": "v6",
+      "positive_a": 7,
+      "positive_b": 6,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v5",
+      "item_b": "v7",
+      "positive_a": 7,
+      "positive_b": 7,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v6",
+      "item_b": "v7",
+      "positive_a": 6,
+      "positive_b": 7,
+      "both_positive": 1
+    },
+    {
+      "item_a": "v8",
+      "item_b": "v2",
+      "positive_a": 6,
+      "positive_b": 7,
+      "both_positive": 1
+    },
+    {
+      "item_a": "v8",
+      "item_b": "v3",
+      "positive_a": 6,
+      "positive_b": 8,
+      "both_positive": 3
+    },
+    {
+      "item_a": "v8",
+      "item_b": "v4",
+      "positive_a": 6,
+      "positive_b": 6,
+      "both_positive": 1
+    },
+    {
+      "item_a": "v8",
+      "item_b": "v5",
+      "positive_a": 6,
+      "positive_b": 7,
+      "both_positive": 1
+    },
+    {
+      "item_a": "v8",
+      "item_b": "v6",
+      "positive_a": 6,
+      "positive_b": 6,
+      "both_positive": 1
+    },
+    {
+      "item_a": "v8",
+      "item_b": "v7",
+      "positive_a": 6,
+      "positive_b": 7,
+      "both_positive": 1
+    },
+    {
+      "item_a": "v10",
+      "item_b": "v12",
+      "positive_a": 7,
+      "positive_b": 6,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v11",
+      "item_b": "v13",
+      "positive_a": 6,
+      "positive_b": 6,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v14",
+      "item_b": "v15",
+      "positive_a": 8,
+      "positive_b": 6,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v14",
+      "item_b": "v16",
+      "positive_a": 8,
+      "positive_b": 6,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v14",
+      "item_b": "v17",
+      "positive_a": 8,
+      "positive_b": 6,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v14",
+      "item_b": "v18",
+      "positive_a": 8,
+      "positive_b": 7,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v15",
+      "item_b": "v16",
+      "positive_a": 6,
+      "positive_b": 6,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v17",
+      "item_b": "v18",
+      "positive_a": 6,
+      "positive_b": 7,
+      "both_positive": 0
+    },
+    {
+      "item_a": "v22",
+      "item_b": "v23",
+      "positive_a": 5,
+      "positive_b": 5,
+      "both_positive": 0
+    }
+  ]
+}

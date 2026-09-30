@@ -1,0 +1,20 @@
+{
+  "stage": "6",
+  "status": "PASS",
+  "items": 24,
+  "absence_items": [
+    "v10",
+    "v11",
+    "v16",
+    "v18",
+    "v20"
+  ],
+  "dev_positive_total": 153,
+  "pending_specs": [],
+  "artifacts": {
+    "integrated_specs": "/home/alparka/nara-ai/artifacts/judgment_specs_v1_v24.json",
+    "consistency_rules": "/home/alparka/nara-ai/artifacts/judgment_spec_consistency_rules.json",
+    "consistency_audit": "/home/alparka/nara-ai/artifacts/judgment_spec_consistency_audit.csv"
+  },
+  "next_stage": "Stage 7 - structured information extraction"
+}

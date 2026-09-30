@@ -1,0 +1,62 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Competition raw data
+# =========================
+open/
+
+# =========================
+# Generated submissions
+# =========================
+submit.zip
+submit/mock_output/
+submit/mock_v9/
+submit/dev200_mock/
+submit/mock_output_final/
+
+# Generated submission CSVs
+submit/**/submission.csv
+
+# =========================
+# Secrets / local settings
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Editor / OS
+# =========================
+.vscode/
+.DS_Store
+
+# =========================
+# Logs / temporary
+# =========================
+*.log
+tmp/
+temp/
+
+# Generated audit / intermediate artifacts
+artifacts/*.csv
+artifacts/*.jsonl
+
+# Submission temporary files
+submit/script_backup.py
+submit/__pycache__/

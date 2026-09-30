@@ -1,0 +1,31 @@
+{
+  "backend": "vllm offline",
+  "model": "PPS_MODEL_DIR",
+  "quantization": "int8_per_channel_weight_only",
+  "max_model_len": 16384,
+  "max_input_tokens": 13500,
+  "max_output_tokens": 2200,
+  "temperature": 0.0,
+  "top_p": 1.0,
+  "calls_per_notice": 1,
+  "structured_output": true,
+  "schema_location": "root",
+  "prompt_char_target_local": 24000,
+  "absence_items": [
+    "v10",
+    "v11",
+    "v16",
+    "v18",
+    "v20"
+  ],
+  "fallback_strategy": [
+    "FULL rules + docs",
+    "reduce docs",
+    "MIN rules + docs",
+    "tokenizer hard check"
+  ],
+  "local_prompt_stats": {
+    "avg_chars": 17797.43,
+    "max_chars": 23943
+  }
+}

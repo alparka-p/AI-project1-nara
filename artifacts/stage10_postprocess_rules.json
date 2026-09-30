@@ -1,0 +1,59 @@
+{
+  "version": "stage10-v1",
+  "philosophy": "safe negative corrections only; no deterministic positive overrides before actual Gemma DEV inference",
+  "positive_override_allowed": false,
+  "v24_modified": false,
+  "absence_items": [
+    "v10",
+    "v11",
+    "v16",
+    "v18",
+    "v20"
+  ],
+  "product_scope": {
+    "ALL_GENERAL": {
+      "definition": "all provided detail-product codes are absent from the official competitive-product CSV",
+      "force_zero": [
+        "v10",
+        "v11",
+        "v13"
+      ]
+    },
+    "ALL_COMPETITIVE": {
+      "definition": "all provided detail-product codes match the official competitive-product CSV",
+      "force_zero": [
+        "v12",
+        "v14",
+        "v15",
+        "v16",
+        "v17",
+        "v18"
+      ]
+    },
+    "MIXED": {
+      "force_zero": []
+    },
+    "UNKNOWN": {
+      "force_zero": []
+    }
+  },
+  "evidence_policy": {
+    "v0": "empty",
+    "absence_items": "empty",
+    "max_chars": 500,
+    "exact_substring_validation": "Stage 11"
+  },
+  "incomplete_absence_policy": {
+    "force_zero": false,
+    "force_one": false,
+    "action": "warning only"
+  },
+  "deferred_until_dev_model_predictions": [
+    "amount-threshold deterministic corrections",
+    "v22 negotiated-contract hard gate",
+    "v23 local+negotiated hard gate",
+    "SW applicability hard gate",
+    "v24 deterministic mismatch override",
+    "0->1 positive correction rules"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "stage": "7",
+  "status": "PASS",
+  "records": 200,
+  "required_meta_fields": [
+    "개찰예정일자",
+    "계약방법",
+    "공고게시일자",
+    "공동도급구성방식",
+    "낙찰방법",
+    "면허업종제한목록",
+    "배정예산금액",
+    "세부품명번호목록",
+    "소관구분",
+    "업무구분",
+    "업종제한여부",
+    "입찰추정가격",
+    "적용계약법",
+    "정보화사업여부",
+    "제한지역코드목록",
+    "조항호내용",
+    "지역제한여부"
+  ],
+  "candidate_categories": [
+    "qualification",
+    "performance",
+    "region",
+    "product_model",
+    "direct_production",
+    "enterprise",
+    "supply_commitment",
+    "software",
+    "joint_contract",
+    "briefing",
+    "deadline",
+    "contract_method",
+    "industry",
+    "amount"
+  ],
+  "exact_blocks_checked": 13399,
+  "competitive_product_csv": {
+    "file": "중기부고시_경쟁제품_세부품명.csv",
+    "rows": 616,
+    "code_columns": [
+      "제품명번호",
+      "세부품명번호"
+    ],
+    "unique_codes": 615
+  },
+  "completeness": {
+    "fully_observed": 190,
+    "has_dropped_docs": 10
+  },
+  "product_lookup_status": {
+    "UNKNOWN_NO_CODE": 122,
+    "NO_MATCH": 61,
+    "MATCH": 17
+  },
+  "important_policy": {
+    "regex_is_not_gate": true,
+    "missing_candidate_does_not_mean_absence": true,
+    "exact_substrings_preserved": true,
+    "all_docs_used": true,
+    "absence_items_require_completeness_handling": [
+      "v10",
+      "v11",
+      "v16",
+      "v18",
+      "v20"
+    ]
+  },
+  "artifacts": {
+    "structured_dev": "/home/alparka/nara-ai/artifacts/structured_facts_dev.jsonl",
+    "audit": "/home/alparka/nara-ai/artifacts/structured_extraction_audit.csv",
+    "positive_hint_audit": "/home/alparka/nara-ai/artifacts/structured_extraction_positive_hint_audit.csv"
+  },
+  "next_stage": "Stage 8 - item-specific legal retrieval / judgment packet"
+}

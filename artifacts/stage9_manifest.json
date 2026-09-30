@@ -1,0 +1,22 @@
+{
+  "stage": 9,
+  "status": "PASS_ENGINE_READY",
+  "records": 200,
+  "items_per_notice": 24,
+  "target_llm_calls_per_notice": 1,
+  "official_schema_validated": true,
+  "schema_flat_assumption": false,
+  "output_parser_validated": true,
+  "local_prompt_char_budget_pass": true,
+  "server_token_budget_guard": true,
+  "max_input_tokens": 13500,
+  "max_output_tokens": 2200,
+  "model_runtime_available_local": false,
+  "model_smoke_result": "SKIPPED_LOCAL_NO_MODEL",
+  "artifacts": {
+    "prompts": "/home/alparka/nara-ai/artifacts/stage9_prompts_dev.jsonl",
+    "audit": "/home/alparka/nara-ai/artifacts/stage9_prompt_audit.csv",
+    "engine_config": "/home/alparka/nara-ai/artifacts/stage9_engine_config.json"
+  },
+  "next_stage": "Stage 10 deterministic postprocessing"
+}

@@ -1,0 +1,18 @@
+{
+  "stage": 11,
+  "status": "PASS_EVIDENCE_VALIDATOR_READY",
+  "records_tested": 200,
+  "positive_labels_tested": 153,
+  "official_evidence_present": 54,
+  "final_evidence_present": 119,
+  "candidate_recovered": 65,
+  "missing_unrecovered": 3,
+  "prediction_values_changed": false,
+  "exact_substring_required": true,
+  "dev_labels_use": "AUDIT_ONLY; never used by runtime evidence recovery rules",
+  "artifacts": {
+    "rules": "/home/alparka/nara-ai/artifacts/stage11_evidence_rules.json",
+    "audit": "/home/alparka/nara-ai/artifacts/stage11_evidence_audit.csv"
+  },
+  "next_stage": "Stage 12 first submission-ready script.py"
+}

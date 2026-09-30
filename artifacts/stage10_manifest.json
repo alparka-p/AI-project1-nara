@@ -1,0 +1,22 @@
+{
+  "stage": 10,
+  "status": "PASS_POSTPROCESS_READY",
+  "records_tested": 200,
+  "actual_model_predictions_used": false,
+  "dev_labels_used": false,
+  "safe_negative_overrides_only": true,
+  "positive_overrides": false,
+  "v24_modified": false,
+  "product_scope_counts": {
+    "UNKNOWN": 122,
+    "ALL_GENERAL": 61,
+    "ALL_COMPETITIVE": 16,
+    "MIXED": 1
+  },
+  "synthetic_override_actions": 279,
+  "artifacts": {
+    "rules": "/home/alparka/nara-ai/artifacts/stage10_postprocess_rules.json",
+    "audit": "/home/alparka/nara-ai/artifacts/stage10_postprocess_audit.csv"
+  },
+  "next_stage": "Stage 11 exact-substring evidence validator"
+}

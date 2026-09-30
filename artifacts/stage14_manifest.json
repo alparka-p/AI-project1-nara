@@ -1,0 +1,63 @@
+{
+  "stage": 14,
+  "records": 200,
+  "hard_failures": {
+    "prompt_failures": 0,
+    "product_gate_positive_conflicts": 0,
+    "official_evidence_not_exact_source": 0
+  },
+  "hard_failure_total": 0,
+  "scope_counts": {
+    "UNKNOWN": 122,
+    "ALL_GENERAL": 61,
+    "ALL_COMPETITIVE": 16,
+    "MIXED": 1
+  },
+  "stage6_field_hits": {
+    "amount_condition": 9,
+    "exceptions": 8,
+    "required_meta": 24,
+    "facts_to_extract": 24
+  },
+  "incomplete_absence_positive": [
+    [
+      "PPS-DEV-13",
+      "v10"
+    ],
+    [
+      "PPS-DEV-24",
+      "v20"
+    ],
+    [
+      "PPS-DEV-131",
+      "v20"
+    ],
+    [
+      "PPS-DEV-134",
+      "v20"
+    ]
+  ],
+  "retrieval_warnings": [
+    [
+      "v1",
+      "prompt_evidence",
+      0.0
+    ],
+    [
+      "v10",
+      "candidate",
+      0.7142857142857143
+    ],
+    [
+      "v11",
+      "candidate",
+      0.6666666666666666
+    ],
+    [
+      "v23",
+      "prompt_evidence",
+      0.6
+    ]
+  ],
+  "audit_csv": "/home/alparka/nara-ai/artifacts/stage14_pre_submit_risk_audit.csv"
+}

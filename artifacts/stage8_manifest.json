@@ -1,0 +1,30 @@
+{
+  "stage": 8,
+  "status": "PASS",
+  "records": 200,
+  "items": 24,
+  "strategy": {
+    "target_llm_calls_per_notice": 1,
+    "all_items_always_judged": true,
+    "candidate_hard_gate": false,
+    "priority_levels": [
+      "HIGH",
+      "MEDIUM"
+    ],
+    "labels_in_packets": false,
+    "ground_truth_in_packets": false
+  },
+  "retrieval": {
+    "legal_source": "Stage 6 exact legal grounding",
+    "document_source": "Stage 7 exact candidate blocks + per-document fallback",
+    "max_legal_chars_per_item": 5000,
+    "max_document_context_chars": 30000
+  },
+  "exact_packet_segments_checked": 11069,
+  "artifacts": {
+    "item_catalog": "/home/alparka/nara-ai/artifacts/judgment_item_catalog.json",
+    "packets_dev": "/home/alparka/nara-ai/artifacts/judgment_packets_dev.jsonl",
+    "audit": "/home/alparka/nara-ai/artifacts/judgment_packet_audit.csv"
+  },
+  "next_stage": "Stage 9 - fixed Gemma single-call judgment engine"
+}

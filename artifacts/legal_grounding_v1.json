@@ -1,0 +1,1404 @@
+{
+  "v1": {
+    "item_name": "참가자격 특정기관 제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제12조 국가계약법 시행령 제21조",
+    "official_local": "지방계약법 시행령 제13조 지방계약법 시행령 제20조",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제12조",
+        "locators": {
+          "articles": [
+            "제12조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조",
+        "locators": {
+          "articles": [
+            "제21조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제13조",
+        "locators": {
+          "articles": [
+            "제13조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조",
+        "locators": {
+          "articles": [
+            "제20조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v2": {
+    "item_name": "고시금액 미만 실적제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조 제1항 국가계약법 시행규칙 제25조",
+    "official_local": "지방계약법 시행령 제20조 제1항 지방계약 법시행규칙제25조 제2항 지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약 일반기준 제1절 총칙 7. 계약담당자 주의사항",
+    "note": "지방 + 소액수의 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 제1항",
+        "locators": {
+          "articles": [
+            "제21조"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "국가계약법 시행규칙",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "국가계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 제1항 지방계약 법시행규칙제25조 제2항",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제25조"
+          ],
+          "paragraphs": [
+            "제1항",
+            "제2항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방자치단체 입찰 및 계약 집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약 일반기준 제1절 총칙 7. 계약담당자 주의사항",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제1장"
+          ],
+          "sections": [
+            "제1절"
+          ],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v3": {
+    "item_name": "실적제한 1배수 이상",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조 제1항 국가계약법 시행규칙 제25조 (계약예규) 정부 입찰·계약 집행기준 제2장 제한경쟁입찰의 운용 제5조",
+    "official_local": "지방계약법 시행령 제20조 제1항 지방계약법 시행규칙 제25조",
+    "note": "사업예산 기준",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 제1항",
+        "locators": {
+          "articles": [
+            "제21조"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "국가계약법 시행규칙",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "국가계약법 시행규칙 제25조 (계약예규)",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "정부 입찰·계약 집행기준",
+        "file": "(계약예규) 정부 입찰·계약 집행기준",
+        "segment": "정부 입찰·계약 집행기준 제2장 제한경쟁입찰의 운용 제5조",
+        "locators": {
+          "articles": [
+            "제5조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제2장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 제1항",
+        "locators": {
+          "articles": [
+            "제20조"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방계약법 시행규칙",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "지방계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v4": {
+    "item_name": "고시금액 이상 특정기관, 특정실적",
+    "absence_detection": false,
+    "official_national": "(계약예규) 정부입찰계약집행기준 제2장 제한경쟁입찰의 운용 제5조",
+    "official_local": "(행안부예규) 지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약 일반기준",
+    "note": "특정기관 표현 다양",
+    "national_sources": [
+      {
+        "alias": "정부입찰계약집행기준",
+        "file": "(계약예규) 정부 입찰·계약 집행기준",
+        "segment": "정부입찰계약집행기준 제2장 제한경쟁입찰의 운용 제5조",
+        "locators": {
+          "articles": [
+            "제5조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제2장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방자치단체 입찰 및 계약 집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약 일반기준",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제1장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v5": {
+    "item_name": "고시금액 이상 지역제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조 국가를 당사자로하는 계약에 관한 법률 등의 재정경제부장관이 정하는 고시금액",
+    "official_local": "지방계약법 시행령 제20조 지방계약법 시행규칙 제24조",
+    "note": "지방, 지자체에 따라 고시금액 다름",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 국가를 당사자로하는 계약에 관한 법률 등의 재정경제부장관이 정하는 고시금액",
+        "locators": {
+          "articles": [
+            "제21조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조",
+        "locators": {
+          "articles": [
+            "제20조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방계약법 시행규칙",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "지방계약법 시행규칙 제24조",
+        "locators": {
+          "articles": [
+            "제24조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v6": {
+    "item_name": "고시금액 미만 지역제한 시,군,구",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행규칙 제25조",
+    "official_local": "지방계약법 시행규칙 제25조 지방자치단체 입찰 및 계약집행기준 제5장 수의계약 운영요령 제3절 수의계약 대상과 운영요령 1. 금액기준에 따른 2인 이상 견적서 제출 수의계약 나. 수의계약 요령",
+    "note": "지방 + 소액수의 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행규칙",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "국가계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행규칙",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "지방계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방자치단체 입찰 및 계약집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약집행기준 제5장 수의계약 운영요령 제3절 수의계약 대상과 운영요령 1. 금액기준에 따른 2인 이상 견적서 제출 수의계약 나. 수의계약 요령",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제5장"
+          ],
+          "sections": [
+            "제3절"
+          ],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v7": {
+    "item_name": "고시금액 미만 지역제한 인접 확대",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행규칙 제25조",
+    "official_local": "지방계약법 시행규칙 제25조 지방자치단체 입찰 및 계약집행기준 제5장 수의계약 운영요령 제3절 수의계약 대상과 운영요령 1. 금액기준에 따른 2인 이상 견적서 제출 수의계약 나. 수의계약 요령",
+    "note": "지방 + 소액수의 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행규칙",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "국가계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행규칙",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "지방계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방자치단체 입찰 및 계약집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약집행기준 제5장 수의계약 운영요령 제3절 수의계약 대상과 운영요령 1. 금액기준에 따른 2인 이상 견적서 제출 수의계약 나. 수의계약 요령",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제5장"
+          ],
+          "sections": [
+            "제3절"
+          ],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v8": {
+    "item_name": "중복제한 (실적+지역)",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행규칙 제25조",
+    "official_local": "지방계약법 시행규칙 제25조 지방자치단체 입찰 및 계약집행기준 제5장 수의계약 운영요령 제3절 수의계약 대상과 운영요령 1. 금액기준에 따른 2인 이상 견적서 제출 수의계약 나. 수의계약 요령",
+    "note": "지방 + 소액수의 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행규칙",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "국가계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행규칙",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "지방계약법 시행규칙 제25조",
+        "locators": {
+          "articles": [
+            "제25조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방자치단체 입찰 및 계약집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약집행기준 제5장 수의계약 운영요령 제3절 수의계약 대상과 운영요령 1. 금액기준에 따른 2인 이상 견적서 제출 수의계약 나. 수의계약 요령",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제5장"
+          ],
+          "sections": [
+            "제3절"
+          ],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v9": {
+    "item_name": "과업지시서 특정 모델명 명시",
+    "absence_detection": false,
+    "official_national": "(계약예규) 정부 입찰·계약 집행기준 제2장 제한경쟁입찰의 운용 제5조",
+    "official_local": "(행안부예규) 지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약일반기준 7. 계약담당자 주의사항",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "정부 입찰·계약 집행기준",
+        "file": "(계약예규) 정부 입찰·계약 집행기준",
+        "segment": "정부 입찰·계약 집행기준 제2장 제한경쟁입찰의 운용 제5조",
+        "locators": {
+          "articles": [
+            "제5조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제2장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방자치단체 입찰 및 계약 집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약일반기준 7. 계약담당자 주의사항",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제1장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v10": {
+    "item_name": "중기간 경쟁제품 입찰 직생 없음",
+    "absence_detection": true,
+    "official_national": "중소기업제품 구매촉진 및 판로지원에 관한 법률 제9조 중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+    "official_local": "중소기업제품 구매촉진 및 판로지원에 관한 법률 제9조 중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "file": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "segment": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "file": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "segment": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v11": {
+    "item_name": "중기간 경쟁제품 입찰 중소 없음",
+    "absence_detection": true,
+    "official_national": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항 중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+    "official_local": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항 중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항",
+        "locators": {
+          "articles": [
+            "제21조",
+            "제7조"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "file": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "segment": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제7조"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "file": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "segment": "중소기업자간 경쟁제품 및 공사용자재 직접구매 대상 품목 지정 내역",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v12": {
+    "item_name": "일반제품 직생 제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조",
+    "official_local": "지방계약법 시행령 제20조",
+    "note": "중기간경쟁제품 고시 참고",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조",
+        "locators": {
+          "articles": [
+            "제21조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조",
+        "locators": {
+          "articles": [
+            "제20조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v13": {
+    "item_name": "중기간 경쟁제품 소기업, 소상공인 제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항",
+    "official_local": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항",
+        "locators": {
+          "articles": [
+            "제21조",
+            "제7조"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 제7조 제1항",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제7조"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v14": {
+    "item_name": "고시금액 이상 일반물품 중소기업 제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "official_local": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제21조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v15": {
+    "item_name": "1억 이상- 고시금액미만 소기업 제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "official_local": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "note": "판로지원 예외 명시한 경우, 제한 없어도 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제21조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v16": {
+    "item_name": "1억 이상- 고시금액미만 중소기업 제한 없음",
+    "absence_detection": true,
+    "official_national": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "official_local": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "note": "판로지원 예외 명시한 경우, 제한 없어도 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제21조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v17": {
+    "item_name": "1억원 미만 일반물품 중소기업 제한",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "official_local": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "note": "판로지원 예외 명시한 경우, 제한 없어도 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제21조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v18": {
+    "item_name": "1억원 미만 일반물품 소기업 제한 없음",
+    "absence_detection": true,
+    "official_national": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "official_local": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+    "note": "판로지원 예외 명시한 경우, 제한 없어도 가능",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제21조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제21조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제20조 중소기업제품 구매촉진 및 판로지원에 관한 법률 시행령 제2조의2 제1항,제2조의3",
+        "locators": {
+          "articles": [
+            "제20조",
+            "제2조의2",
+            "제2조의3"
+          ],
+          "paragraphs": [
+            "제1항"
+          ],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v19": {
+    "item_name": "물품공급 확약서 입찰 시 제출",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제12조 국가계약법 시행규칙 제17조 (계약예규)정부 입찰·계약 집행기준 제2장 제한경쟁입찰의 운용 제5조의3",
+    "official_local": "지방계약법 시행령 제13조 지방계약법시행규칙제17조 (행안부예규) 지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약일반기준 7. 계약담당자 주의사항",
+    "note": "입찰 전 발급, 계약시 제출 등 표현 다양",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제12조",
+        "locators": {
+          "articles": [
+            "제12조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "국가계약법 시행규칙",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행규칙",
+        "segment": "국가계약법 시행규칙 제17조 (계약예규)",
+        "locators": {
+          "articles": [
+            "제17조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "정부 입찰·계약 집행기준",
+        "file": "(계약예규) 정부 입찰·계약 집행기준",
+        "segment": "정부 입찰·계약 집행기준 제2장 제한경쟁입찰의 운용 제5조의3",
+        "locators": {
+          "articles": [
+            "제5조의3"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제2장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제13조",
+        "locators": {
+          "articles": [
+            "제13조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방계약법",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률",
+        "segment": "지방계약법시행규칙제17조 (행안부예규)",
+        "locators": {
+          "articles": [
+            "제17조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방자치단체 입찰 및 계약 집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약 집행기준 제1장 입찰 및 계약일반기준 7. 계약담당자 주의사항",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제1장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v20": {
+    "item_name": "입찰참가자격 (SW)",
+    "absence_detection": true,
+    "official_national": "소프트웨어진흥법 중소 소프트웨어사업자의 사업 참여 지원에 관한 지침 제2조 별표1",
+    "official_local": "소프트웨어진흥법 중소 소프트웨어사업자의 사업 참여 지원에 관한 지침 제2조 별표1",
+    "note": "사업금액 기준 참여제한 다름 (20억 미만, 40억 미만, 80억 미만, 80억 이상)",
+    "national_sources": [
+      {
+        "alias": "소프트웨어진흥법",
+        "file": "소프트웨어 진흥법",
+        "segment": "소프트웨어진흥법",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "중소 소프트웨어사업자의 사업 참여 지원에 관한 지침",
+        "file": "중소 소프트웨어사업자의 사업 참여 지원에 관한 지침",
+        "segment": "중소 소프트웨어사업자의 사업 참여 지원에 관한 지침 제2조 별표1",
+        "locators": {
+          "articles": [
+            "제2조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": [
+            "별표1"
+          ]
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "소프트웨어진흥법",
+        "file": "소프트웨어 진흥법",
+        "segment": "소프트웨어진흥법",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "중소 소프트웨어사업자의 사업 참여 지원에 관한 지침",
+        "file": "중소 소프트웨어사업자의 사업 참여 지원에 관한 지침",
+        "segment": "중소 소프트웨어사업자의 사업 참여 지원에 관한 지침 제2조 별표1",
+        "locators": {
+          "articles": [
+            "제2조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": [
+            "별표1"
+          ]
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v21": {
+    "item_name": "공동 5% (10%)",
+    "absence_detection": false,
+    "official_national": "(계약예규) 공동계약운용요령",
+    "official_local": "(행안부예규) 지방자치단체 입찰 및 계약 집행기준 제6장 공동계약 운영요령",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "공동계약운용요령",
+        "file": "(계약예규) 공동계약운용요령",
+        "segment": "공동계약운용요령",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방자치단체 입찰 및 계약 집행기준",
+        "file": "지방자치단체 입찰 및 계약 집행기준",
+        "segment": "지방자치단체 입찰 및 계약 집행기준 제6장 공동계약 운영요령",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제6장"
+          ],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v22": {
+    "item_name": "현장설명회 참석업체 (자격으로 제한 여부) * 계약방법 협상만 적용",
+    "absence_detection": false,
+    "official_national": "국가계약법 시행령 제43조 6항 삭제(‘19.12.18 시행)",
+    "official_local": "지방계약법 시행령 제43조 7항 삭제 (’22. 9. 20. 시행령 개정으로 삭제)",
+    "note": "",
+    "national_sources": [
+      {
+        "alias": "국가계약법 시행령",
+        "file": "국가를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "국가계약법 시행령 제43조 6항 삭제(‘19.12.18 시행)",
+        "locators": {
+          "articles": [
+            "제43조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "local_sources": [
+      {
+        "alias": "지방계약법 시행령",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+        "segment": "지방계약법 시행령 제43조 7항 삭제 (’22. 9. 20. 시행령 개정으로 삭제)",
+        "locators": {
+          "articles": [
+            "제43조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": false,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v23": {
+    "item_name": "현장설명회 (공고기간) * 계약방법 협상 + 계약법 지방만 적용",
+    "absence_detection": false,
+    "official_national": "해당 없음(위반 성립 불가) — 항목명 주석대로 계약방법 협상 + 지방계약 건에만 적용.",
+    "official_local": "지방계약법시행령 제35조 (행안부예규) 지방자치단체 입찰시 낙찰자 결정기준 제7장 협상에 의한 계약 낙찰자 결정기준 제3절 입찰과 계약상대자 결정절차",
+    "note": "",
+    "national_sources": [],
+    "local_sources": [
+      {
+        "alias": "지방계약법",
+        "file": "지방자치단체를 당사자로 하는 계약에 관한 법률",
+        "segment": "지방계약법시행령 제35조 (행안부예규)",
+        "locators": {
+          "articles": [
+            "제35조"
+          ],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [],
+          "sections": [],
+          "tables": []
+        }
+      },
+      {
+        "alias": "지방자치단체 입찰시 낙찰자 결정기준",
+        "file": "지방자치단체 입찰시 낙찰자 결정기준",
+        "segment": "지방자치단체 입찰시 낙찰자 결정기준 제7장 협상에 의한 계약 낙찰자 결정기준 제3절 입찰과 계약상대자 결정절차",
+        "locators": {
+          "articles": [],
+          "paragraphs": [],
+          "items": [],
+          "chapters": [
+            "제7장"
+          ],
+          "sections": [
+            "제3절"
+          ],
+          "tables": []
+        }
+      }
+    ],
+    "national_not_applicable": true,
+    "local_not_applicable": false,
+    "status": "RESOLVED",
+    "unresolved": []
+  },
+  "v24": {
+    "item_name": "공고서와 나라장터 입력값 상이",
+    "absence_detection": false,
+    "official_national": "해당 없음 — 조문 없는 대조형 항목(나라장터 입력값과 공고서 내용의 일치 여부 점검).",
+    "official_local": "해당 없음 — 조문 없는 대조형 항목(나라장터 입력값과 공고서 내용의 일치 여부 점검).",
+    "note": "예산, 계약방법, 지역제한, 업종",
+    "national_sources": [],
+    "local_sources": [],
+    "national_not_applicable": true,
+    "local_not_applicable": true,
+    "status": "RESOLVED",
+    "unresolved": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "stage11-v1",
+  "max_evidence_chars": 500,
+  "absence_items": [
+    "v10",
+    "v11",
+    "v16",
+    "v18",
+    "v20"
+  ],
+  "order": [
+    "v=0 -> empty",
+    "absence item -> empty",
+    "exact model evidence",
+    "wrapper-stripped exact evidence",
+    "whitespace-normalized recovery",
+    "Stage 7 exact candidate recovery",
+    "unrecoverable -> empty"
+  ],
+  "prediction_change": false,
+  "important_policy": {
+    "evidence_failure_does_not_flip_v": true,
+    "generated_or_summarized_evidence": false,
+    "all_nonempty_final_evidence_exact": true
+  }
+}
